@@ -32,13 +32,9 @@ endif
 ifeq ($(tutorial),sky130-commercial-tapeout)
     tech_name         ?= sky130
     vlsi_mode         ?= tapeout
-    CONFIG            ?= TinyRocketConfig
+    CONFIG            ?= Sky130RocketConfig
     TOOLS_CONF        ?= example-tools.yml
-    TECH_CONF         ?= example-sky130.yml
-    DESIGN_CONFS      ?= example-designs/sky130-commercial.yml \
-                        $(if $(filter $(VLSI_TOP),Rocket), \
-                            example-designs/sky130-rocket.yml, )
-    VLSI_OBJ_DIR      ?= build-sky130-commercial
+    VLSI_OBJ_DIR      ?= build-sky130-commercial-tapeout
     INPUT_CONFS       ?= $(TOOLS_CONF) $(TECH_CONF) $(DESIGN_CONFS) $(EXTRA_CONFS)
 endif
 

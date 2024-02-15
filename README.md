@@ -59,3 +59,8 @@ Files in this harness that will need to be modified/added:
 - Hammer input file ([`sky130-chipyard/vlsi/example-sky130-tapeout.yml`](https://github.com/ucb-bar/sky130-chipyard/blob/main/vlsi/example-sky130-tapeout.yml))
 - Hammer CLI driver ([`sky130-chipyard/vlsi/example-vlsi-sky130-tapeout`](https://github.com/ucb-bar/sky130-chipyard/blob/main/vlsi/example-vlsi-sky130-tapeout))
 
+## TODOs
+
+- Find better solution to issue where place halo is smaller than power grid blockage
+- Get design passing DRC (standard and latchup decks)
+- Check whether CDL hack converting generic resistor to short breaks anything

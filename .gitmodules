@@ -30,7 +30,7 @@
 	url = https://github.com/ucb-bar/sha3.git
 [submodule "vlsi/hammer-mentor-plugins"]
 	path = vlsi/hammer-mentor-plugins
-	url = https://github.com/ucb-bar/hammer-mentor-plugins.git
+	url = git@github.com:ucb-bar/hammer-mentor-plugins.git
 [submodule "tools/axe"]
 	path = tools/axe
 	url = https://github.com/CTSRD-CHERI/axe.git
@@ -148,3 +148,6 @@
 [submodule "generators/rocket-chip-inclusive-cache"]
 	path = generators/rocket-chip-inclusive-cache
 	url = https://github.com/chipsalliance/rocket-chip-inclusive-cache.git
+[submodule "vlsi/hammer"]
+	path = vlsi/hammer
+	url = git@github.com:rohanku/hammer.git
